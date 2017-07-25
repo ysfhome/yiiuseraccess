@@ -203,6 +203,25 @@ return [
         'description' => 'all forntend',
         'children' => [
             '/*',
+            '/admin/assignment/index',
+            '/admin/assignment/view',
+            '/admin/assignment/assign',
+            '/admin/assignment/role-search',
+            '/admin/menu/index',
+            '/admin/menu/view',
+            '/admin/menu/create',
+            '/admin/menu/delete',
+            '/admin/menu/*',
         ],
+    ],
+    'test' => [
+        'type' => 2,
+        'description' => 'ewfwe',
+        'children' => [
+            '/site/contact',
+        ],
+    ],
+    '/gergreger' => [
+        'type' => 2,
     ],
 ];
