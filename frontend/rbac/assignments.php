@@ -2,5 +2,6 @@
 return [
     1 => [
         'admin_frontend',
+        'test',
     ],
 ];
